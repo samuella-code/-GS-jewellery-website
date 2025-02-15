@@ -14,11 +14,10 @@ export default function Home() {
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Summer styles are finally here
+                Sparkling Jewels: Elevate Your Style
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                This year, our new summer collection will shelter you from the harsh elements of a world that doesnt
-                care if you live or die.
+                This year, our new summer collection will shine bright with exquisite pieces that will make you sparkle from the inside out.
               </p>
             </div>
             <div>
@@ -216,8 +215,7 @@ export default function Home() {
               </h2>
               <p className="mt-3 text-xl text-white">
                 We're committed to responsible, sustainable, and ethical manufacturing. Our small-scale approach allows
-                us to focus on quality and reduce our impact. We're doing our best to delay the inevitable heat-death of
-                the universe.
+                us to focus on quality and reduce our impact.
               </p>
               <a
                 href="#"
@@ -229,7 +227,7 @@ export default function Home() {
           </div>
         </section>
 
-     
+
         <section aria-labelledby="sale-heading">
           <div className="overflow-hidden pt-32 sm:pt-14">
             <div className="bg-gray-800">
@@ -311,7 +309,7 @@ export default function Home() {
         </section>
       </main>
 
-    
+
     </div>
   )
 }
