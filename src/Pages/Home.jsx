@@ -1,3 +1,14 @@
+import img1 from "../../public/assets/images/pen.jpg"
+import img2 from "../../public/assets/images/pexels.jpg"
+import img3 from "../../public/assets/images/chain.jpg"
+import img4 from "../../public/assets/images/pens.jpg"
+import img5 from "../../public/assets/images/pens1.jpg"
+import img6 from "../../public/assets/images/chain1.jpg"
+import img7 from "../../public/assets/images/posing.jpg"
+import img8 from "../../public/assets/images/beads.jpg"
+import img9 from "../../public/assets/images/rings.jpg"
+import img10 from "../../public/assets/images/666.jpg"
+import img11 from "../../public/assets/images/rose.jpg"
 
 
 export default function Home() {
@@ -13,11 +24,11 @@ export default function Home() {
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Sparkling Jewels: Elevate Your Style
+              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Grandeur Sparkle: Elevate Your Style
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                This year, our new summer collection will shine bright with exquisite pieces that will make you sparkle from the inside out.
+              where elegance meets brilliance. Our jewelry is crafted to embody luxury, sophistication, and timeless beauty. Whether you're looking for dazzling statement pieces or delicate everyday elegance, we bring you high-quality designs that radiate charm and confidence. 
               </p>
             </div>
             <div>
@@ -33,37 +44,14 @@ export default function Home() {
                         <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                            src={img1}
                             className="size-full object-cover"
                           />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                            className="size-full object-cover"
-                          />
-                        </div>
-                      </div>
-                      <div className="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                            className="size-full object-cover"
-                          />
-                        </div>
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                            className="size-full object-cover"
-                          />
-                        </div>
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                            src={img2}
                             className="size-full object-cover"
                           />
                         </div>
@@ -72,14 +60,37 @@ export default function Home() {
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                            src={img3}
                             className="size-full object-cover"
                           />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                            src={img4}
+                            className="size-full object-cover"
+                          />
+                        </div>
+                        <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <img
+                            alt=""
+                            src={img5}
+                            className="size-full object-cover"
+                          />
+                        </div>
+                      </div>
+                      <div className="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <img
+                            alt=""
+                            src={img6}
+                            className="size-full object-cover"
+                          />
+                        </div>
+                        <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <img
+                            alt=""
+                            src={img7}
                             className="size-full object-cover"
                           />
                         </div>
@@ -118,7 +129,7 @@ export default function Home() {
               <div className="group relative aspect-[2/1] overflow-hidden rounded-lg sm:row-span-2 sm:aspect-square">
                 <img
                   alt="Two models wearing women's black cotton crewneck tee and off-white cotton crewneck tee."
-                  src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-featured-category.jpg"
+                  src={img8}
                   className="absolute size-full object-cover group-hover:opacity-75"
                 />
                 <div
@@ -142,7 +153,7 @@ export default function Home() {
               <div className="group relative aspect-[2/1] overflow-hidden rounded-lg sm:aspect-auto">
                 <img
                   alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters."
-                  src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-category-01.jpg"
+                  src={img9}
                   className="absolute size-full object-cover group-hover:opacity-75"
                 />
                 <div
@@ -166,7 +177,7 @@ export default function Home() {
               <div className="group relative aspect-[2/1] overflow-hidden rounded-lg sm:aspect-auto">
                 <img
                   alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk."
-                  src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-category-02.jpg"
+                  src={img10}
                   className="absolute size-full object-cover group-hover:opacity-75"
                 />
                 <div
@@ -204,7 +215,7 @@ export default function Home() {
             <div className="absolute inset-0 overflow-hidden">
               <img
                 alt=""
-                src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-feature-section-full-width.jpg"
+                src={img11}
                 className="size-full object-cover"
               />
             </div>
@@ -214,8 +225,8 @@ export default function Home() {
                 Long-term thinking
               </h2>
               <p className="mt-3 text-xl text-white">
-                We're committed to responsible, sustainable, and ethical manufacturing. Our small-scale approach allows
-                us to focus on quality and reduce our impact.
+             
+              At **Grandeur Sparkle**, we believe that every piece tells a story—one of grace, style, and individuality. Shine effortlessly with our exquisite collection and let your sparkle speak for itself. 💎✨
               </p>
               <a
                 href="#"
@@ -237,7 +248,7 @@ export default function Home() {
                     <h2 id="sale-heading" className="text-4xl font-bold tracking-tight text-white md:text-5xl">
                       Final Stock.
                       <br />
-                      Up to 50% off.
+                      Up to 30% off.
                     </h2>
                     <div className="mt-6 text-base">
                       <a href="#" className="font-semibold text-white">
@@ -311,5 +322,6 @@ export default function Home() {
 
 
     </div>
+
   )
 }
