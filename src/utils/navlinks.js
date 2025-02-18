@@ -73,6 +73,7 @@ export const navigation = {
                     href: '#',
                     imageSrc:
                         {img13},
+                        //the images are not showing up
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
                 {
@@ -122,8 +123,10 @@ export const navigation = {
             ],
         },
     ],
+
+
     pages: [
-    
+    //this part make it have dropdown just like the women and men own stuff
         { name: 'Wares', href: '#' },
         { name: 'Stores', href: '#' },
     ],
