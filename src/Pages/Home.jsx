@@ -9,8 +9,15 @@ import img8 from "../../public/assets/images/beads.jpg"
 import img9 from "../../public/assets/images/rings.jpg"
 import img10 from "../../public/assets/images/666.jpg"
 import img11 from "../../public/assets/images/rose.jpg"
+import img0 from "../../public/assets/images/beads1.jpg"
+import img17 from "../../public/assets/images/beads2.jpg"
+import img18 from "../../public/assets/images/bblue.jpg"
+import img19 from "../../public/assets/images/white.jpg"
+import img20 from "../../public/assets/images/rings1.jpg"
+import img21 from "../../public/assets/images/lady.jpg"
 
 
+//and the logo cause i changed it just make it a bit big
 export default function Home() {
 
   return (
@@ -264,7 +271,7 @@ export default function Home() {
                         <div className="shrink-0">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-category-01.jpg"
+                            src={img0}
                             className="size-64 rounded-lg object-cover md:size-72"
                           />
                         </div>
@@ -272,7 +279,7 @@ export default function Home() {
                         <div className="mt-6 shrink-0 sm:mt-0">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-category-02.jpg"
+                            src={img17}
                             className="size-64 rounded-lg object-cover md:size-72"
                           />
                         </div>
@@ -281,7 +288,7 @@ export default function Home() {
                         <div className="shrink-0">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-favorite-01.jpg"
+                            src={img18}
                             className="size-64 rounded-lg object-cover md:size-72"
                           />
                         </div>
@@ -289,7 +296,7 @@ export default function Home() {
                         <div className="mt-6 shrink-0 sm:mt-0">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-favorite-02.jpg"
+                            src={img19}
                             className="size-64 rounded-lg object-cover md:size-72"
                           />
                         </div>
@@ -298,7 +305,7 @@ export default function Home() {
                         <div className="shrink-0">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-category-01.jpg"
+                            src={img20}
                             className="size-64 rounded-lg object-cover md:size-72"
                           />
                         </div>
@@ -306,7 +313,7 @@ export default function Home() {
                         <div className="mt-6 shrink-0 sm:mt-0">
                           <img
                             alt=""
-                            src="https://tailwindui.starxg.com/plus-assets/img/ecommerce-images/home-page-03-category-02.jpg"
+                            src={img21}
                             className="size-64 rounded-lg object-cover md:size-72"
                           />
                         </div>
