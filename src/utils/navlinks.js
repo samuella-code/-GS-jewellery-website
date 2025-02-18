@@ -1,58 +1,64 @@
+import img11 from "../../public/assets/images/ring-5.jpg"
+import img12 from "../../public/assets/images/ring-4.jpg"
+import img13 from "../../public/assets/images/ring-2.jpg"
+import img14 from "../../public/assets/images/ring-3.jpg"
+
 export const navigation = {
+
     categories: [
         {
             id: 'women',
-            name: 'Women',
+            name: 'Necklaces',
             featured: [
                 {
                     name: 'New Arrivals',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/plus-assets/img/ecommerce-images/mega-menu-category-01.jpg',
+                    imageSrc: {img11},
                     imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
                 },
                 {
                     name: 'Basic Tees',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/plus-assets/img/ecommerce-images/mega-menu-category-02.jpg',
+                    imageSrc:{img12},
                     imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
                 },
             ],
             sections: [
                 {
                     id: 'clothing',
-                    name: 'Clothing',
+                    name: 'Necklaces',
                     items: [
-                        { name: 'Tops', href: '#' },
-                        { name: 'Dresses', href: '#' },
-                        { name: 'Pants', href: '#' },
-                        { name: 'Denim', href: '#' },
-                        { name: 'Sweaters', href: '#' },
-                        { name: 'T-Shirts', href: '#' },
-                        { name: 'Jackets', href: '#' },
-                        { name: 'Activewear', href: '#' },
-                        { name: 'Browse All', href: '#' },
+                        { name: 'Pendant Necklaces', href: '#' },
+                        { name: 'Choker Necklaces', href: '#' },
+                        { name: 'Layered Necklaces', href: '#' },
+                        { name: 'Locket Necklaces', href: '#' },
+                        { name: 'Pearl Necklaces', href: '#' },
+                        { name: 'Statement Necklaces', href: '#' },
+                        { name: 'Adjustable lengths', href: '#' },
+                        { name: 'Gemstones', href: '#' },
+                        { name: 'Gold, Silver, Rose Gold, Stainless Steel,', href: '#' },
                     ],
                 },
                 {
                     id: 'accessories',
-                    name: 'Accessories',
+                    name: 'Luxury & Fine Jewelry Necklaces',
                     items: [
-                        { name: 'Watches', href: '#' },
-                        { name: 'Wallets', href: '#' },
-                        { name: 'Bags', href: '#' },
-                        { name: 'Sunglasses', href: '#' },
-                        { name: 'Hats', href: '#' },
-                        { name: 'Belts', href: '#' },
+                        { name: 'Diamond Necklace', href: '#' },
+                        { name: 'Rose Gold Necklace', href: '#' },
+                        { name: 'Ruby Necklace', href: '#' },
+                        { name: 'Sapphire Necklace', href: '#' },
+                        { name: 'Moissanite Necklace', href: '#' },
+                        { name: 'Sterling Silver Necklace', href: '#' },
                     ],
                 },
                 {
                     id: 'brands',
                     name: 'Brands',
                     items: [
-                        { name: 'Full Nelson', href: '#' },
-                        { name: 'My Way', href: '#' },
-                        { name: 'Re-Arranged', href: '#' },
-                        { name: 'Counterfeit', href: '#' },
+                        { name: 'Cartier ', href: '#' },
+                        { name: 'Mikimoto', href: '#' },
+                        { name: 'Hermès Jewelry', href: '#' },
+                        { name: 'Boucheron', href: '#' },
                         { name: 'Significant Other', href: '#' },
                     ],
                 },
@@ -60,19 +66,19 @@ export const navigation = {
         },
         {
             id: 'men',
-            name: 'Men',
+            name: 'Earrings',
             featured: [
                 {
                     name: 'New Arrivals',
                     href: '#',
                     imageSrc:
-                        'https://tailwindui.com/plus-assets/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
+                        {img13},
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
                 {
                     name: 'Artwork Tees',
                     href: '#',
-                    imageSrc: 'https://tailwindui.com/plus-assets/img/ecommerce-images/category-page-02-image-card-06.jpg',
+                    imageSrc: {img14},
                     imageAlt:
                         'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
                 },
@@ -80,43 +86,44 @@ export const navigation = {
             sections: [
                 {
                     id: 'clothing',
-                    name: 'Clothing',
+                    name: 'Unisex Earrings',
                     items: [
-                        { name: 'Tops', href: '#' },
-                        { name: 'Pants', href: '#' },
-                        { name: 'Sweaters', href: '#' },
-                        { name: 'T-Shirts', href: '#' },
-                        { name: 'Jackets', href: '#' },
-                        { name: 'Activewear', href: '#' },
+                        { name: 'Stud Earrings', href: '#' },
+                        { name: 'Hoop Earrings', href: '#' },
+                        { name: 'Drop & Dangle Earrings', href: '#' },
+                        { name: 'Huggie Earrings', href: '#' },
+                        { name: 'Ear Cuffs', href: '#' },
+                        { name: 'Chandelier Earrings', href: '#' },
                         { name: 'Browse All', href: '#' },
                     ],
                 },
                 {
                     id: 'accessories',
-                    name: 'Accessories',
+                    name: 'Fashion Earrings',
                     items: [
-                        { name: 'Watches', href: '#' },
-                        { name: 'Wallets', href: '#' },
-                        { name: 'Bags', href: '#' },
-                        { name: 'Sunglasses', href: '#' },
-                        { name: 'Hats', href: '#' },
-                        { name: 'Belts', href: '#' },
+                        { name: 'Shell Earrings', href: '#' },
+                        { name: 'Clip-On Pearl Earrings', href: '#' },
+                        { name: 'Music Note Earrings', href: '#' },
+                        { name: 'Bridal Diamond Earrings', href: '#' },
+                        { name: 'Luxury Rose Gold Earrings', href: '#' },
+                        { name: 'White Gold Drop Earrings', href: '#' },
                     ],
                 },
                 {
                     id: 'brands',
                     name: 'Brands',
                     items: [
-                        { name: 'Re-Arranged', href: '#' },
-                        { name: 'Counterfeit', href: '#' },
+                        { name: 'Pura Vida', href: '#' },
+                        { name: 'Bottega Veneta Jewelry ', href: '#' },
                         { name: 'Full Nelson', href: '#' },
-                        { name: 'My Way', href: '#' },
+                        { name: 'Versace Jewelry', href: '#' },
                     ],
                 },
             ],
         },
     ],
     pages: [
+    
         { name: 'Wares', href: '#' },
         { name: 'Stores', href: '#' },
     ],
