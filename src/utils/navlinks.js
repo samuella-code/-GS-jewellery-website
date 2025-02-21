@@ -13,13 +13,13 @@ export const navigation = {
                 {
                     name: 'New Arrivals',
                     href: '#',
-                    imageSrc: {img11},
+                    imageSrc: "../../public/assets/images/ring-5.jpg",
                     imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
                 },
                 {
                     name: 'Basic Tees',
                     href: '#',
-                    imageSrc:{img12},
+                    imageSrc: "../../public/assets/images/ring-5.jpg",
                     imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
                 },
             ],
@@ -65,21 +65,21 @@ export const navigation = {
             ],
         },
         {
-            id: 'men',
+            id: 'Earrings',
             name: 'Earrings',
             featured: [
                 {
                     name: 'New Arrivals',
                     href: '#',
                     imageSrc:
-                        {img13},
-                        //the images are not showing up
+                        "../../public/assets/images/ring-2.jpg",
+                    //the images are not showing up
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
                 {
                     name: 'Artwork Tees',
                     href: '#',
-                    imageSrc: {img14},
+                    imageSrc: "../../public/assets/images/ring-4.jpg",
                     imageAlt:
                         'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
                 },
@@ -122,14 +122,86 @@ export const navigation = {
                 },
             ],
         },
+        {
+            id: 'Wares',
+            name: 'Wares',
+            featured: [
+                {
+                    name: 'New Arrivals',
+                    href: '#',
+                    imageSrc:
+                        "../../public/assets/images/ring-2.jpg",
+                    //the images are not showing up
+                    imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
+                },
+            ],
+            sections: [
+                {
+                    id: 'clothing',
+                    name: 'Unisex Earrings',
+                    items: [
+                        { name: 'Stud Earrings', href: '#' },
+                        { name: 'Hoop Earrings', href: '#' },
+                        { name: 'Drop & Dangle Earrings', href: '#' },
+                    ],
+                },
+                {
+                    id: 'accessories',
+                    name: 'Fashion Earrings',
+                    items: [
+                        { name: 'Shell Earrings', href: '#' },
+                        { name: 'Clip-On Pearl Earrings', href: '#' },
+                        { name: 'Music Note Earrings', href: '#' },
+                        { name: 'Bridal Diamond Earrings', href: '#' },
+                        { name: 'Luxury Rose Gold Earrings', href: '#' },
+                        { name: 'White Gold Drop Earrings', href: '#' },
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'Stores',
+            name: 'Stores',
+            featured: [
+                {
+                    name: 'New Arrivals',
+                    href: '#',
+                    imageSrc:
+                        "../../public/assets/images/ring-2.jpg",
+                    //the images are not showing up
+                    imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
+                },
+            ],
+            sections: [
+                {
+                    id: 'clothing',
+                    name: 'Unisex Earrings',
+                    items: [
+                        { name: 'Stud Earrings', href: '#' },
+                        { name: 'Hoop Earrings', href: '#' },
+                        { name: 'Drop & Dangle Earrings', href: '#' },
+                    ],
+                },
+                {
+                    id: 'accessories',
+                    name: 'Fashion Earrings',
+                    items: [
+                        { name: 'Shell Earrings', href: '#' },
+                        { name: 'Clip-On Pearl Earrings', href: '#' },
+                        { name: 'Music Note Earrings', href: '#' },
+                        { name: 'Bridal Diamond Earrings', href: '#' },
+                        { name: 'Luxury Rose Gold Earrings', href: '#' },
+                        { name: 'White Gold Drop Earrings', href: '#' },
+                    ],
+                },
+            ],
+        },
     ],
 
 
-    pages: [
-    //this part make it have dropdown just like the women and men own stuff
-        { name: 'Wares', href: '#' },
-        { name: 'Stores', href: '#' },
-    ],
+    // pages: [
+    //     { name: 'Stores', href: '#' },
+    // ],
 }
 
 
@@ -139,31 +211,31 @@ export const navigation = {
 
 
 
- export  const footerNavigation = {
-     shop: [
-       { name: 'Bags', href: '#' },
-       { name: 'Tees', href: '#' },
-       { name: 'Objects', href: '#' },
-       { name: 'Home Goods', href: '#' },
-       { name: 'Accessories', href: '#' },
-     ],
-     company: [
-       { name: 'Who we are', href: '#' },
-       { name: 'Sustainability', href: '#' },
-       { name: 'Press', href: '#' },
-       { name: 'Careers', href: '#' },
-       { name: 'Terms & Conditions', href: '#' },
-       { name: 'Privacy', href: '#' },
-     ],
-     account: [
-       { name: 'Manage Account', href: '#' },
-       { name: 'Returns & Exchanges', href: '#' },
-       { name: 'Redeem a Gift Card', href: '#' },
-     ],
-     connect: [
-       { name: 'Contact Us', href: '#' },
-       { name: 'Facebook', href: '#' },
-       { name: 'Instagram', href: '#' },
-       { name: 'Pinterest', href: '#' },
-     ],
-   }
+export const footerNavigation = {
+    shop: [
+        { name: 'Bags', href: '#' },
+        { name: 'Tees', href: '#' },
+        { name: 'Objects', href: '#' },
+        { name: 'Home Goods', href: '#' },
+        { name: 'Accessories', href: '#' },
+    ],
+    company: [
+        { name: 'Who we are', href: '#' },
+        { name: 'Sustainability', href: '#' },
+        { name: 'Press', href: '#' },
+        { name: 'Careers', href: '#' },
+        { name: 'Terms & Conditions', href: '#' },
+        { name: 'Privacy', href: '#' },
+    ],
+    account: [
+        { name: 'Manage Account', href: '#' },
+        { name: 'Returns & Exchanges', href: '#' },
+        { name: 'Redeem a Gift Card', href: '#' },
+    ],
+    connect: [
+        { name: 'Contact Us', href: '#' },
+        { name: 'Facebook', href: '#' },
+        { name: 'Instagram', href: '#' },
+        { name: 'Pinterest', href: '#' },
+    ],
+}
