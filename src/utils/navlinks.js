@@ -1,7 +1,4 @@
-import img11 from "../../public/assets/images/ring-5.jpg"
-import img12 from "../../public/assets/images/ring-4.jpg"
-import img13 from "../../public/assets/images/ring-2.jpg"
-import img14 from "../../public/assets/images/ring-3.jpg"
+
 
 export const navigation = {
 
@@ -19,7 +16,11 @@ export const navigation = {
                 {
                     name: 'Basic Tees',
                     href: '#',
+<<<<<<< Updated upstream
                     imageSrc:{img12},
+=======
+                    imageSrc: "../../public/assets/images/ice1.jpg",
+>>>>>>> Stashed changes
                     imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
                 },
             ],
@@ -72,14 +73,23 @@ export const navigation = {
                     name: 'New Arrivals',
                     href: '#',
                     imageSrc:
+<<<<<<< Updated upstream
                         {img13},
                         //the images are not showing up
+=======
+                        "../../public/assets/images/ice2.jpg",
+                    //the images are not showing up
+>>>>>>> Stashed changes
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
                 {
                     name: 'Artwork Tees',
                     href: '#',
+<<<<<<< Updated upstream
                     imageSrc: {img14},
+=======
+                    imageSrc: "../../public/assets/images/ice.jpg",
+>>>>>>> Stashed changes
                     imageAlt:
                         'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
                 },
@@ -122,6 +132,7 @@ export const navigation = {
                 },
             ],
         },
+<<<<<<< Updated upstream
     ],
 
 
@@ -130,6 +141,86 @@ export const navigation = {
         { name: 'Wares', href: '#' },
         { name: 'Stores', href: '#' },
     ],
+=======
+        {
+            id: 'Wares',
+            name: 'Wares',
+            featured: [
+                {
+                    name: 'New Arrivals',
+                    href: '#',
+                    imageSrc:
+                        "../../public/assets/images/ice3.jpg",
+                    //the images are not showing up
+                    imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
+                },
+            ],
+            sections: [
+                {
+                    id: 'clothing',
+                    name: 'Unisex Earrings',
+                    items: [
+                        { name: 'Stud Earrings', href: '#' },
+                        { name: 'Hoop Earrings', href: '#' },
+                        { name: 'Drop & Dangle Earrings', href: '#' },
+                    ],
+                },
+                {
+                    id: 'accessories',
+                    name: 'Fashion Earrings',
+                    items: [
+                        { name: 'Shell Earrings', href: '#' },
+                        { name: 'Clip-On Pearl Earrings', href: '#' },
+                        { name: 'Music Note Earrings', href: '#' },
+                        { name: 'Bridal Diamond Earrings', href: '#' },
+                        { name: 'Luxury Rose Gold Earrings', href: '#' },
+                        { name: 'White Gold Drop Earrings', href: '#' },
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'Stores',
+            name: 'Stores',
+            featured: [
+                {
+                    name: 'New Arrivals',
+                    href: '#',
+                    imageSrc:
+                        "../../public/assets/images/jewellery-background.jpg",
+                    //the images are not showing up
+                    imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
+                },
+            ],
+            sections: [
+                {
+                    id: 'clothing',
+                    name: 'Unisex Earrings',
+                    items: [
+                        { name: 'Stud Earrings', href: '#' },
+                        { name: 'Hoop Earrings', href: '#' },
+                        { name: 'Drop & Dangle Earrings', href: '#' },
+                    ],
+                },
+                {
+                    id: 'accessories',
+                    name: 'Fashion Earrings',
+                    items: [
+                        { name: 'Shell Earrings', href: '#' },
+                        { name: 'Clip-On Pearl Earrings', href: '#' },
+                        { name: 'Music Note Earrings', href: '#' },
+                        { name: 'Bridal Diamond Earrings', href: '#' },
+                        { name: 'Luxury Rose Gold Earrings', href: '#' },
+                        { name: 'White Gold Drop Earrings', href: '#' },
+                    ],
+                },
+            ],
+        },
+    ],
+
+
+   
+>>>>>>> Stashed changes
 }
 
 
