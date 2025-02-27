@@ -69,13 +69,20 @@ export const navigation = {
                 {
                     name: 'New Arrivals',
                     href: '#',
+
                     imageSrc: "../../public/assets/images/ice2.jpg",
                   
+
+                    imageSrc:
+                        "../../public/assets/images/ice2.jpg",
+ 
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
                 {
                     name: 'Artwork Tees',
                     href: '#',
+
+
 
                     imageSrc: "../../public/assets/images/ice.jpg",
                     imageAlt:
@@ -165,7 +172,6 @@ export const navigation = {
                     href: '#',
                     imageSrc:
                         "../../public/assets/images/jewellery-background.jpg",
-                   
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
             ],
