@@ -10,13 +10,13 @@ export const navigation = {
                 {
                     name: 'New Arrivals',
                     href: '#',
-                    imageSrc: {img11},
+                    imageSrc:  "../../public/assets/images/ice1.jpg",
                     imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
                 },
                 {
                     name: 'Basic Tees',
                     href: '#',
-                    imageSrc:{img12},
+
                     imageSrc: "../../public/assets/images/ice1.jpg",
                     imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
                 },
@@ -69,17 +69,14 @@ export const navigation = {
                 {
                     name: 'New Arrivals',
                     href: '#',
-                    imageSrc:
-        
-                        //the images are not showing up
-                        "../../public/assets/images/ice2.jpg",
-                    //the images are not showing up
+                    imageSrc: "../../public/assets/images/ice2.jpg",
+                  
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
                 {
                     name: 'Artwork Tees',
                     href: '#',
-                    imageSrc: {img14},
+
                     imageSrc: "../../public/assets/images/ice.jpg",
                     imageAlt:
                         'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
@@ -123,16 +120,7 @@ export const navigation = {
                 },
             ],
         },
-        ],
-    
-    
-        pages: [
-        //this part make it have dropdown just like the women and men own stuff
-            { name: 'Wares', href: '#' },
-            { name: 'Stores', href: '#' },
-        ]
-    }
-        {
+         {
             id: 'Wares',
             name: 'Wares',
             featured: [
@@ -141,7 +129,6 @@ export const navigation = {
                     href: '#',
                     imageSrc:
                         "../../public/assets/images/ice3.jpg",
-                    //the images are not showing up
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
             ],
@@ -178,7 +165,7 @@ export const navigation = {
                     href: '#',
                     imageSrc:
                         "../../public/assets/images/jewellery-background.jpg",
-                    //the images are not showing up
+                   
                     imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
                 },
             ],
@@ -206,7 +193,7 @@ export const navigation = {
                 },
             ],
         },
-    ],
+    ]
 
 
    
@@ -247,3 +234,13 @@ export const navigation = {
        { name: 'Pinterest', href: '#' },
      ],
    }
+
+
+
+
+
+
+
+
+
+

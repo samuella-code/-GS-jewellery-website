@@ -15,6 +15,7 @@ import img18 from "../../public/assets/images/bblue.jpg"
 import img19 from "../../public/assets/images/white.jpg"
 import img20 from "../../public/assets/images/rings1.jpg"
 import img21 from "../../public/assets/images/lady.jpg"
+import { Link } from "react-router-dom";
 
 
 //and the logo cause i changed it just make it a bit big
@@ -106,12 +107,12 @@ export default function Home() {
                   </div>
                 </div>
 
-                <a
-                  href="#"
-                  className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
-                >
-                  Shop Collection
-                </a>
+                <Link 
+                to="/collections"
+                className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+            >
+                Shop Collection
+            </Link>
               </div>
             </div>
           </div>
@@ -126,10 +127,13 @@ export default function Home() {
               <h2 id="category-heading" className="text-2xl font-bold tracking-tight text-gray-900">
                 Shop by Category
               </h2>
-              <a href="#" className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">
+              <Link 
+                to="/collections"
+                className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block"
+            >
                 Browse all categories
                 <span aria-hidden="true"> &rarr;</span>
-              </a>
+            </Link>
             </div>
 
             <div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
